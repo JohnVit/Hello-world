@@ -1,17 +1,6 @@
 #include <stdio.h>
 
-void	ft_rob(int nb)
-{
-	if (nb <= 10)
-	{
-		for (int i = 0; i < nb; i++)
-		{
-			printf("hello Man, Djoni see yuo\n");
-		}
-	}
-	else
-		printf("error\n");
-}
+void	ft_rot();
 
 int	main(int argc, char **argv)
 {
@@ -36,8 +25,7 @@ int	main(int argc, char **argv)
 						f = 1;
 					if (a == 1 && f == 1)
 					{
-						scanf("%d", &nb);
-						ft_rob(nb);
+						ft_rob();
 						return (0);
 					}
 					i++;
